@@ -81,3 +81,38 @@ nav{
 .main-banner p{
     font-size: 32px;
 }
+
+/*Services*/
+.service-container{
+    padding: 5rem 0;
+}
+.service-container ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.service-container li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+.fas{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.fa-shield-alt{
+    color: #B57D28;
+}
+.fa-rocket{
+    color: #CB9F76;
+}
+.fa-comments{
+    color: #984113;
+}
+.service-container h3{
+    margin-bottom: 25px;
+}
+.service-container p{
+    line-height: 24px;
+}
