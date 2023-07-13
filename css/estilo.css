@@ -116,3 +116,49 @@ nav{
 .service-container p{
     line-height: 24px;
 }
+
+/*precos e cardapios*/
+
+.cardapio-container{
+    padding-bottom: 5rem;
+    text-align: center;
+}
+.cardapio-container h2{
+    font-size: 20px;
+}
+.cardapio-container p{
+    font-size: 16px;
+}
+.precos-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+.precos{
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+}
+.precos ul{
+    padding: 0;
+}
+.precos li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #e8e9ea;
+    color: #333;
+}
+.precos .produto{
+    width: 150px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2dc762;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+}
